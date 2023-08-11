@@ -34,7 +34,7 @@ const Customers = () => {
           clickable: true,
         }}
         modules={[FreeMode, Pagination]}
-        className="mySwiper"
+        className="mySwiper flex items-center"
         id='customerSwiper'
       >
         <SwiperSlide><img src={photo} alt="" /></SwiperSlide>
